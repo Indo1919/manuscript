@@ -1,1 +1,40 @@
+html { font-family: 'Roboto', sans-serif;
+font-size: 1.2rem;
+line-height: 1.45;
+}
+
+body{
+	padding: 3rem;
+	background-color: lightgrey;
+}
+
+* + * {
+	margin-block-start: 1rem;
+}
+
+h1,h2,h3 {
+	font-family: Barlow;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 2.5rem;
+}
+
+h3 {
+	font-size: 1.8rem;
+}
+
+a {
+	color: dodgerblue;
+	text-decoration: underline;
+}
+
+em {
+	font-style: italic;
+	color:darkslategrey;
+}
 
