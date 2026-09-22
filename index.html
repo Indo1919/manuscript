@@ -1,16 +1,24 @@
 <!doctype html>
-<html>
+<html lang="en">
 	<head>
 		<title>Matiass Manuscript Project</title>
+		<link href="reset.css" rel="stylesheet">
+		<link href="style.css" rel="stylesheet">
 	</head>
-	<dd>
+
+	<body>
+		<header>
+			<hgroup>
 		<h1> What Screens Want</h1>
-		<em> <time> November 14, 2013</time></em>
+		<p>Typography and Interaction, 2026-2027</p>
+		<p> <time> November 14, 2013 </p></time>
+			</hgroup>
+		</header>
+	<main>
 
-<body>
 
-		<blockquote>These thoughts on digital canvases were first presented on <a href="https://2013.buildconf.com/#conference"> November 14, 2013 at Build in Belfast, N. Ireland </a> This page is an adaptation of my talk.
-		</blockquote>
+		<blockquote><p>These thoughts on digital canvases were first presented on <a href="https://2013.buildconf.com/#conference"> November 14, 2013 at Build in Belfast, N. Ireland </a> This page is an adaptation of my talk.
+		</p></blockquote>
 
 		<p> The past two years were a wild chase for answers. I read books, looked at art, listened to my heroes, and sketched out scratchy thoughts of my own to search for any sensible response to a question that had been lodged in my head for months: What does it mean to natively design for screens?</p>
 
@@ -22,7 +30,7 @@
 
 		<h2>The Aspirin</h2>
 
-		<hr>
+<!-- Trying to structure the article into sections to breakdown the wall of text-->
 
 		<p> These are aspirin pills. I’m not big on medicating, so my aspirin purchase was the first in a long time. When I rattled a few of the pills out of the bottle, I noticed they seemed to be a lot smaller than I remembered.</p>
 
@@ -38,13 +46,13 @@
 
 		<p> So, if computers are like aspirin, and we’ve been making the computers smaller and smaller, where’s the necessary padding that allows us to grasp things? I stumbled over the question for a while. Then it hit me.</p>
 
-		<strong> The padding isn’t around the screens. It’s in them.</strong>
+		The padding isn’t around the screens. It’s in them.
 
 		<p>Manipulating data, one of the original purposes of computers, is often too abstract for most—even me. It helps to make things visible. Graphical user interfaces unpack some of the complexity in computing, and their implementation became a key to unlocking computers for most people in the ’80s and ’90s. The interfaces we build are where we put the padding. You give a user something to grasp onto when you make a metaphor solid. In the case of software on a screen, the metaphors visually explain the functions of an interface, and provide a bridge from a familiar place to a less known area by suggesting a tool’s function and its relationship to others.</p>
 
 		<p> For instance, if I say “This is a Trash Bin,” you may not know a computer’s file management system or directory structures, but you’ve got a pretty good idea of how trash bins work, so you can deduce that the unwanted files go in the trash bin, and you’ll be able to retrieve them until the bin is emptied.</p>
 
-		<strong> Metaphors are assistive devices for understanding.</strong>
+		<p>Metaphors are assistive devices for understanding.</p>
 
 		<p> I think we all know that some of the aspirin pill’s padding is necessary in computing. We need abstractions, otherwise we’d be writing code in machine language or Assembly, there’d be no work designing interfaces, and users wouldn’t understand much unless they took the years to learn everything from the ground up.</p>
 
@@ -56,7 +64,7 @@
 
 		<p> We’ve been living through that shedding process, and the interfaces of iOS 7 and Windows Metro suggest the keenness of our minds and our adeptness at navigating interfaces. Like them or not, Metro and iOS7 are major touchstones in our relationship to computing, because they signify that we’re beginning to accept a flexible medium on its own terms.</p>
 
-		<strong>But it’s not the first time we’ve done this. Let’s go back 35 years.</strong>
+		<p>But it’s not the first time we’ve done this. Let’s go back 35 years.</p>
 
 		<p> I’d like to show you a video clip from a BBC series called Connections, hosted and written by James Burke.</p>
 
@@ -72,7 +80,7 @@
 
 		(Please imagine I’m doing this in a charming British accent.)</p>
 
-		<strong>Have you noticed what’s happened to software in the last ten years?</strong>
+		<p>Have you noticed what’s happened to software in the last ten years?</p>
 
 		<p>It’s become something in its own right.</p>
 
@@ -82,28 +90,28 @@
 
 		<p>It’s not been long since the word software was an insult. Nasty and complicated, remember? Not any more. It’s as if we suddenly changed our attitude to what real meant and recognized <ins>software for what it is: </ins> </p>
 
-		<strong>something that permits us to do things we couldn’t possibly do if they had to be made with the so called real thing.</strong>
+		<p>something that permits us to do things we couldn’t possibly do if they had to be made with the so called real thing.</p>
 
-<dl>
-		<dt>Now it’s everywhere. I mean, look at this office.</dt>
+		<p>Now it’s everywhere. I mean, look at this office.</p>
 
-		<dd>This is now software.</dd>
+<ul>
+		<li>This is now software.</li>
 
-		<dd>So’s that.</dd>
+		<li>So’s that.</li>
 
-		<dd>So is this.</dd>
+		<li>So is this.</li>
 
-		<dd> And so are these.</dd>
+		<li> And so are these.</li>
 
-		<dd> And especially what’s inside them.</dd>
+		<li> And especially what’s inside them.</li>
 
-		<dd> There’s software on the wall.</dd>
+		<li> There’s software on the wall.</li>
 
-		<dd> There’s software on this desk.</dd>
+		<li> There’s software on this desk.</li>
 
-		<dd> My shoes are software.</dd>
+		<li> My shoes are software.</li>
 
-</dl>
+</ul>
 
 		<p>And now there’s a new generation of objects that can only be made in software.</p>
 
@@ -115,9 +123,9 @@
 
 		<p>When Burke talks about things needing to look like their old embodiments and the ability for those shapes to change, he’s talking about skeuomorphs. But he’d never use that word, because he’s much too clever. The word sticks in your mouth, right? Both halves come from Greek.</p>
 
-		<p> <strong> skeuo → container</strong> </p>
+		<p> skeuo → container </p>
 
-		<p> <strong>morph → shape</strong> </p>
+		<p> morph → shape </p>
 
 		<p>So, skeuomorphs are about the shape we choose for the containers we build. This requires plasticity. Softness. Screens are a special material without much precedent, save plastic. And I think it’s best to view screens as a material for interaction and interface design.</p>
 
@@ -135,7 +143,7 @@
 
 		<h2>The Horse</h2>
 
-		<hr>
+<!-- Trying to structure the article into sections to breakdown the wall of text-->
 
 		<p> right, here’s a color photo of a horse.</p>
 
@@ -153,7 +161,7 @@
 
 		<p>So how do you figure out that grain? Well, if you think about it, the grain of wood is documentation of how the tree has grown. Maybe the best thing to do is to figure out where screens came from. Which means I get to talk about horses again.</p>
 
-		<strong>Let’s have a short history lesson.</strong>
+		<p>Let’s have a short history lesson.</p>
 
 		<p>In 1872 a man took a photograph of a horse.
 
@@ -177,13 +185,17 @@
 
 		<p> Muybridge’s crazy horse experiment eventually led us to the familiar glow of the screen. If you’re like me, and consider Muybridge’s work as one of the main inroads to the creation of screens, it becomes apparent that web and interaction design are just as much children of filmmaking as they are of graphic design. Maybe even more so. After all, we both work on screens, and manage time, movement, and most importantly, change. So what does all of this mean? I think the grain of screens has been there since the beginning. It’s not tied to an aesthetic. Screens don’t care what the horses look like. They just want them to move. They want the horses to change</p>
 
+		<h2>Designing for Screens</h2>
+
+<!-- Trying to structure the article into sections to breakdown the wall of text-->
+
 		<p>Designing for screens is managing that change. To put a finer head on it, the grain of screens is something I call flux.</p>
 
-		<strong> Flux is the capacity for change.</strong>
+		<p> Flux is the capacity for change.</p>
 
 		<p>Yes, this could be animation, because that’s what I’ve been talking about up until now, but I think it’s a lot more, too. Flux is a generous definition. It encompasses many of the things we take for granted in the digital realm: structural changes, like customization, responsiveness, and variability.</p>
 
-		<strong> Some examples:</strong>
+		<p> Some examples:</p>
 
 		<p>Flux is changing the colors of your website at night, to customize for a different reading experience based on time.</p>
 
@@ -197,28 +209,25 @@
 
 
 
-		<strong>High</strong>
+		<p>High</p>
 
 		<p> These are the immersive interactive pieces you think of when I say “Flash website.” I think this sort of stuff is rarely a good idea on the web, but we’re talking about screens in general. I’ve seen a lot of really cool stuff done with high flux in museums, public installations, and in film. High flux is great in physical spaces.</p>
 
-<hr style="border: none; border-top: 1px solid #ccc;">
 
-		<strong>Medium</strong>
+		<p>Medium</p>
 
 		<p> This area is most interesting to me, because it overlaps with what I do: websites and interfaces. Medium level flux is assistive and descriptive animation, and restructuring content based on sensors. It clarifies interactivity by allowing elements to respond to that interaction and other, measured conditions.</p>
 
-<hr style="border: none; border-top: 1px solid #ccc">
 
-		<strong> Low</strong>
+		<p> Low</p>
 
 		<p> These are really small mutations we take for granted when it comes to computing, like the ability to sort a table row on your spreadsheet. One of the major reasons the spreadsheet software has the capacity to change is because the screen can show the change produced. You can’t do that on paper. You need processing and a malleable display surface.</p>
 
-<hr style="border: none; border-top: 1px solid #ccc;">
 
 
 		<p>Probably the most well-known example of medium flux is OS X’s genie effect on window minimization. The animation clarifies the interaction by treating the window as a physical object, and sucks down the window to show its eventual position in the dock when minimized.</p>
 
-		<strong> I’ll show you a few more examples.</strong>
+		<p> I’ll show you a few more examples.</p>
 
 		<p> These come from a great blog post by Adrian Zumbrunnen of IA in Zurich.</p>
 
@@ -250,7 +259,7 @@
 
 		<p> For example, a few years ago, I flew to Hong Kong from Chicago, and my brain just about broke because the flight path took us over the North Pole. I forgot that was even possible! My brain was so programmed with representations and maps that I, well, forgot that Earth is a sphere, and you can navigate it any which way you want—not just east and west. An abstraction’s distortion blinded me to a portion of the reality. Abstractions always distort and omit, because they have to. The trick is to be mindful it is happening.</p>
 
-		<strong>If I asked you to picture the world, you probably think of this.</strong>
+		<p>If I asked you to picture the world, you probably think of this.</p>
 
 		<p> But there’s nothing that says you couldn’t think of it like this.</p>
 
@@ -294,7 +303,7 @@
 
 		<p> So the pep talk is that things are starting to suck, but there’s a capacity for change in what we’ve made, who we are, and what we believe. Everything was made, and if we want, we can remake it how we see fit. We only need to want it.</p>
 
-		<strong>And then we have to build it.</strong>
+		<p>And then we have to build it.</p>
 
 </article>
 
@@ -305,12 +314,15 @@
 
 		<a href>https://frankchimero.com/blog/2013/what-screens-want/</a href>
 
-		<hr>
-
 </footer>
 
+<heading>
 
 		<h2>Reflection</h2>
+
+</heading>
+
+<main>
 
 		<blockquote> <em>“A designer’s work is not only about how things look, but also their behaviors in response to interaction, and the adjustments they make between their fixed states. In fact, designing the way elements adapt and morph in the in-between moments is half of your work as a designer”</em></blockquote>
 
@@ -320,6 +332,6 @@
 
 		<p> What I didn't expect was Chimero’s argument that what screens want isn't important if it doesn't line up with what users want, in an article about what screens want. A designer is the person who decides what goes on a screen, what needs to catch a person’s eye, and what to leave out, and the user takes it in as how the product is supposed to be. This is why the quote at the beginning stood out to me as a designer: if half my job is in the in-between, then a good amount of it is making choices that most audiences will never recognize as intentional design decisions.   </p>
 
+</main>
 
-	</body>
 </html>
