@@ -54,6 +54,7 @@ padding-top: 1rem;
 h3 {font-weight: 250;}
 
 blockquote {color: rgb(47, 116, 15);
+	padding: 2rem;
 }
 
 mark {
