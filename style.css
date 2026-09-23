@@ -29,6 +29,12 @@ h3 {
 	font-size: 1.8rem;
 }
 
+footer {
+text-align: center;
+padding: 0;
+margin-bottom: 3rem;
+}
+
 strong {font-weight: 400;}
 
 #title{color: rgb(1, 59, 59);}
