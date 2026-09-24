@@ -61,7 +61,7 @@ opacity: 15%;
 h3 {font-weight: 250;}
 
 blockquote {color: rgb(47, 116, 15);
-	padding: 2rem;
+	padding-block-end: 1rem;
 }
 
 mark {
