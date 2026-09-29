@@ -19,7 +19,6 @@ html {
 --size-sm: 1.8rem;
 --size-xsm:1rem;
 
-
 color: var(--color-fg);
 font-size: 1.2rem;
 line-height: 1.45;
@@ -49,15 +48,13 @@ h3 {
 }
 
 footer {
-text-align: center;
-padding: 0;
-margin-bottom: var(--size-lg);
+	text-align: center;
+	padding: 0;
+	margin-bottom: var(--size-lg);
 }
 
 strong {font-weight: 400;}
 
-#title{color: var(--color-brand);
-}
 
 a {
 	color: dodgerblue;
@@ -112,4 +109,7 @@ li:nth-child(8) {font-size:3rem;}
 
 * + * {
 	margin-block-start: var(--size-xsm);
+}
+
+#title{color: var(--color-brand);
 }
