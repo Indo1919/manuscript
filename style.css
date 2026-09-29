@@ -1,43 +1,63 @@
-html { font-family: 'Roboto', sans-serif;
+html {
+	font-family: var(--font-body);
+}
+
+:root {
+--color-fg: black;
+--color-bg: lightgrey;
+--color-brand: rgb(1, 59, 59);
+--color-accent: rgb(47, 116, 15);
+--color-accent2:rgb(111, 111, 111);
+
+--font-body:'Roboto', sans-serif;
+--font-display:'Barlow';
+--font-mono: var(--font-body);
+
+--size-xlg: 4rem;
+--size-lg: 3rem;
+--size-md: 2rem;
+--size-sm: 1.8rem;
+--size-xsm:1rem;
+
+
+color: var(--color-fg);
 font-size: 1.2rem;
 line-height: 1.45;
+max-inline-size: 80ch;
 }
 
 body{
-	padding: 3rem;
-	background-color: lightgrey;
+	padding: var(--size-lg);
+	background-color: var(--color-bg);
 	font-weight: 300;
 }
 
-* + * {
-	margin-block-start: 1rem;
-}
-
 h1,h2,h3 {
-	font-family: Barlow;
+	font-family: var(--font-display);
 }
 
 h1 {
-	font-size: 4rem;
+	font-size: var(--size-xlg);
 }
 
 h2 {
-	font-size: 2rem;
+	font-size: var(--size-md);
 }
 
 h3 {
-	font-size: 1.8rem;
+	font-size: var(--size-sm);
 }
 
 footer {
 text-align: center;
 padding: 0;
-margin-bottom: 3rem;
+margin-bottom: var(--size-lg);
 }
 
 strong {font-weight: 400;}
 
-#title{color: rgb(1, 59, 59);}
+#title{color: var(--color-brand);
+}
 
 a {
 	color: dodgerblue;
@@ -46,22 +66,31 @@ a {
 
 em {
 	font-style: italic;
-	color:darkslategrey;
+	color: var(--color-brand);
 }
 
 h1 {font-weight: 500;}
 
 h2 {font-weight: 400;
-text-transform: uppercase;
-border-bottom: 0.07rem solid;
-padding-top: 1rem;
-opacity: 15%;
+	color: var(--color-accent2);
+	text-transform: uppercase;
+	border-bottom: 0.07rem solid;
+	padding-top: var(--size-xsm);
+	position: sticky;
+	inset-block-start:0;
+	background-color: var(--color-bg);
+	padding-block: var(--size-xsm)
 }
 
 h3 {font-weight: 250;}
 
-blockquote {color: rgb(47, 116, 15);
-	padding-block-end: 1rem;
+blockquote {color: var(--color-accent);
+	line-height: 1.4rem;
+	padding-inline-start: var(--size-lg);
+	padding-block-end: var(--size-xsm);
+	border-inline-start: calc(var(--size-xsm) / 4) solid var(--color-brand);
+	border-radius:calc(var(--size-xsm) / 6);
+	margin-block: var(--size-sm);
 }
 
 mark {
@@ -79,4 +108,8 @@ li:nth-child(8) {font-size:3rem;}
 
 .custom-underline {
 	text-decoration: underline;
+}
+
+* + * {
+	margin-block-start: var(--size-xsm);
 }
