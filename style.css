@@ -8,10 +8,11 @@ html {
 	--color-fg: #13261b;
 	--color-bg: #f5f6f3;
 	--color-brand: #0b3d24;
+	--color-images:#0da459;
 	--color-accent: #557060;
 	--color-accent2:#6f6f6f;
 	--color-highlight:#b6f2c6;
-	--color-links:#10aa53;
+	--color-links: dodgerblue;
 /*Colors where chosen to represent a modern twist to an old green screen display*/
 
 /*fonts*/
@@ -26,11 +27,14 @@ html {
 	--size-sm: 1.8rem;
 	--size-xsm:1rem;
 
+	/*general document setup*/
 	color: var(--color-fg);
 	font-size: calc(var(--size-md)/1.5);
 	line-height: 1.45;
 	max-inline-size: 120ch;
-	margin-inline: auto;
+	margin-inline: auto; /*A friend who is a computer engineer gave me feedback and suggested margin-inline: auto.
+   I chose it to center the content within its container by distributing
+   the available space equally between the two inline margins.*/
 }
 
 
@@ -110,10 +114,18 @@ blockquote {
 	margin-block: var(--size-sm);
 }
 
-
+/*Used to highlight definitons in the article*/
 mark {
 	background-color: var(--color-highlight);
 	}
+
+/*Written descriptions of the images meant to for readers to use their imagination*/
+.Image-description{
+	font-style: italic;
+	color:var(--color-images);
+	margin-inline-start: var(--size-lg);
+	font-size: var(--size-xsm);
+}
 
 li:nth-child(1) {font-size: 0.8rem;}
 li:nth-child(2) {font-size:1.2rem;}
