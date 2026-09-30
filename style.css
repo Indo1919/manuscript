@@ -22,7 +22,7 @@ html {
 color: var(--color-fg);
 font-size: 1.2rem;
 line-height: 1.45;
-max-inline-size: 80ch;
+max-inline-size: 120ch;
 }
 
 body{
@@ -36,7 +36,7 @@ h1,h2,h3 {
 }
 
 h1 {
-	font-size: var(--size-xlg);
+	font-size: calc(var(--size-xlg) * 1.4) ;
 }
 
 h2 {
@@ -66,11 +66,21 @@ em {
 	color: var(--color-brand);
 }
 
-h1 {font-weight: 500;}
+header{
+padding-bottom: var(--size-xlg);
+
+}
+
+h1 {font-weight: 500;
+	text-transform: uppercase;
+	border-bottom: calc(var(--size-xsm) / 3) solid;
+	padding-top: var(--size-xsm);
+	margin-bottom: var(--size-sm);
+}
 
 h2 {font-weight: 400;
 	color: var(--color-accent2);
-	text-transform: uppercase;
+	text-transform:capitalize;
 	border-bottom: 0.07rem solid;
 	padding-top: var(--size-xsm);
 	position: sticky;
@@ -88,6 +98,14 @@ blockquote {color: var(--color-accent);
 	border-inline-start: calc(var(--size-xsm) / 4) solid var(--color-brand);
 	border-radius:calc(var(--size-xsm) / 6);
 	margin-block: var(--size-sm);
+}
+
+
+.formal-center{
+	max-width: 44ch;
+	margin: 0;
+	text-align:justify;
+	justify-content: center;
 }
 
 mark {
