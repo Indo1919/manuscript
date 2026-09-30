@@ -28,7 +28,7 @@ max-inline-size: 120ch;
 
 
 body{
-	padding: var(--size-lg);
+	padding: calc(var(--size-xlg)*1.6);
 	background-color: var(--color-bg);
 	font-weight: 375;
 }
@@ -84,7 +84,7 @@ h1 {font-weight: 500;
 h2 {font-weight: 400;
 	color: var(--color-accent2);
 	text-transform:capitalize;
-	border-bottom: 0.07rem solid;
+	border-bottom: calc(var(--size-xsm)/(100/7)) solid;
 	padding-top: var(--size-xsm);
 	position: sticky;
 	inset-block-start:0;
