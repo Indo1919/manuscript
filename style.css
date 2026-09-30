@@ -3,6 +3,8 @@ html {
 }
 
 :root {
+
+	/*colors*/
 --color-fg: #13261b;
 --color-bg: #f5f6f3;
 --color-brand: #0b3d24;
@@ -10,10 +12,12 @@ html {
 --color-accent2:#6f6f6f;
 --color-highlight:#b6f2c6;
 
+/*fonts*/
 --font-body:'Roboto', sans-serif;
 --font-display:'Barlow';
 --font-mono: var(--font-body);
 
+/*sizing*/
 --size-xlg: 4rem;
 --size-lg: 3rem;
 --size-md: 2rem;
@@ -24,6 +28,7 @@ color: var(--color-fg);
 font-size: calc(var(--size-md)/1.5);
 line-height: 1.45;
 max-inline-size: 120ch;
+margin-inline: auto;
 }
 
 
