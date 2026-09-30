@@ -11,6 +11,8 @@ html {
 	--color-accent: #557060;
 	--color-accent2:#6f6f6f;
 	--color-highlight:#b6f2c6;
+	--color-links:#10aa53;
+/*Colors where chosen to represent a modern twist to an old green screen display*/
 
 /*fonts*/
 	--font-body:'Roboto', sans-serif;
@@ -84,7 +86,7 @@ color:var(--color-brand)
 
 
 a {
-	color: dodgerblue;
+	color: var(--color-links);
 	text-decoration: underline;
 }
 
