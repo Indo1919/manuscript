@@ -3,11 +3,12 @@ html {
 }
 
 :root {
---color-fg: black;
---color-bg: lightgrey;
---color-brand: rgb(1, 59, 59);
---color-accent: rgb(47, 116, 15);
---color-accent2:rgb(111, 111, 111);
+--color-fg: #13261b;
+--color-bg: #f5f6f3;
+--color-brand: #0b3d24;
+--color-accent: #557060;
+--color-accent2:#6f6f6f;
+--color-highlight:#b6f2c6;
 
 --font-body:'Roboto', sans-serif;
 --font-display:'Barlow';
@@ -20,7 +21,7 @@ html {
 --size-xsm:1rem;
 
 color: var(--color-fg);
-font-size: 1.2rem;
+font-size: calc(var(--size-md)/1.5);
 line-height: 1.45;
 max-inline-size: 120ch;
 }
@@ -28,7 +29,10 @@ max-inline-size: 120ch;
 body{
 	padding: var(--size-lg);
 	background-color: var(--color-bg);
-	font-weight: 300;
+	font-weight: 375;
+
+
+
 }
 
 h1,h2,h3 {
@@ -89,7 +93,7 @@ h2 {font-weight: 400;
 	padding-block: var(--size-xsm)
 }
 
-h3 {font-weight: 250;}
+h3 {font-weight: 550;}
 
 blockquote {color: var(--color-accent);
 	line-height: 1.4rem;
@@ -109,7 +113,7 @@ blockquote {color: var(--color-accent);
 }
 
 mark {
-	background-color: yellow;
+	background-color: var(--color-highlight);
 	}
 
 li:nth-child(1) {font-size: 0.8rem;}
@@ -129,5 +133,5 @@ li:nth-child(8) {font-size:3rem;}
 	margin-block-start: var(--size-xsm);
 }
 
-#title{color: var(--color-brand);
+#title {color: var(--color-brand);
 }
