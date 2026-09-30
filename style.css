@@ -26,14 +26,13 @@ line-height: 1.45;
 max-inline-size: 120ch;
 }
 
+
 body{
 	padding: var(--size-lg);
 	background-color: var(--color-bg);
 	font-weight: 375;
-
-
-
 }
+
 
 h1,h2,h3 {
 	font-family: var(--font-display);
@@ -71,7 +70,7 @@ em {
 }
 
 header{
-padding-bottom: var(--size-xlg);
+	padding-bottom: var(--size-xlg);
 
 }
 
@@ -93,7 +92,8 @@ h2 {font-weight: 400;
 	padding-block: var(--size-xsm)
 }
 
-h3 {font-weight: 550;}
+h3 {font-weight: 550;
+}
 
 blockquote {color: var(--color-accent);
 	line-height: 1.4rem;
@@ -102,14 +102,6 @@ blockquote {color: var(--color-accent);
 	border-inline-start: calc(var(--size-xsm) / 4) solid var(--color-brand);
 	border-radius:calc(var(--size-xsm) / 6);
 	margin-block: var(--size-sm);
-}
-
-
-.formal-center{
-	max-width: 44ch;
-	margin: 0;
-	text-align:justify;
-	justify-content: center;
 }
 
 mark {
