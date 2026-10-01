@@ -54,7 +54,7 @@ h1,h2,h3 {
 h1 {
 	color: var(--color-brand);
 	font-size: calc(var(--size-xlg) * 1.4);
-	font-weight: 500;
+	font-weight: 700;
 	text-transform: uppercase;
 	border-bottom: calc(var(--size-xsm) / 3) solid;
 	padding-top: calc(var(--size-xsm)/ 6);

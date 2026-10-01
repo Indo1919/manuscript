@@ -12,6 +12,10 @@ Demo/template for our [first projects](https://typography-interaction-2627.githu
 > The goal of this project is to hone your basic skills in typography, focusing on expression, hierarchy, and form appropriate to a work. You will do this through exploration, trial and error, and responding to critical feedback. And then you will execute this typesetting in code, as a web page
 
 *About
+	*index.html: The reading, my response, and semantics
+	*reset.css: Resets browsers default settings
+	*style.css: Design rules and general styling rules
+
 
 		*The Reading
 	Chimeros main point in the content of his original page is that screens are defined by their capacity to change. The main reason why I chose this reading was because the presentation of familiar or relatable descriptions to make abstract ideas easier to understand throughout the article made it very engaging and easy to digest.
@@ -57,4 +61,4 @@ Demo/template for our [first projects](https://typography-interaction-2627.githu
 
 		Rem and ch for maximum line length
 
-		Implemented the stick sections so that the readers know what section of the article they are in
+		Implemented the sticky sections so that the readers know what section of the article they are in
