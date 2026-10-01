@@ -16,8 +16,8 @@ html {
 /*Colors where chosen to represent a modern twist to an old green screen display*/
 
 /*fonts*/
-	--font-body:'Roboto', sans-serif;
-	--font-display:'Barlow';
+	--font-body:'Fraunces', sans-serif;
+	--font-display:'Space Mono';
 	--font-mono: var(--font-body);
 
 /*sizing*/
@@ -32,7 +32,7 @@ html {
 	font-size: calc(var(--size-md)/1.5);
 	line-height: 1.45;
 	max-inline-size: 120ch;
-	margin-inline: auto; /*A friend who is a computer engineer gave me feedback and suggested margin-inline: auto.
+	margin-inline: auto; /*A friend who is a computer engineer gave me feedback and suggested margin-inline: auto. I saw in other projects it was also being used.
    I chose it to center the content within its container by distributing
    the available space equally between the two inline margins.*/
 }
@@ -106,7 +106,7 @@ header{
 
 blockquote {
 	color: var(--color-accent);
-	line-height: 1.4rem;
+	line-height: calc(var(--size-xsm)*1.4);
 	padding-inline-start: var(--size-lg);
 	padding-block-end: var(--size-xsm);
 	border-inline-start: calc(var(--size-xsm) / 4) solid var(--color-brand);
@@ -127,14 +127,22 @@ mark {
 	font-size: var(--size-xsm);
 }
 
-li:nth-child(1) {font-size: 0.8rem;}
-li:nth-child(2) {font-size:1.2rem;}
-li:nth-child(3) {font-size:1.4rem;}
-li:nth-child(4) {font-size:1.4rem;}
-li:nth-child(5) {font-size:1.5rem;}
-li:nth-child(6) {font-size:2.0rem;}
-li:nth-child(7) {font-size:2.2rem;}
-li:nth-child(8) {font-size:3rem;}
+li:nth-child(1) {font-size: calc(var(--size-xsm)*0.8);
+}
+li:nth-child(2) {font-size:calc(var( --size-xsm)*1.2);
+}
+li:nth-child(3) {font-size:calc(var(--size-xsm)*1.4);
+}
+li:nth-child(4) {font-size:calc(var(--size-xsm)*1.4);
+}
+li:nth-child(5) {font-size:calc(var(--size-xsm)*1.5);
+}
+li:nth-child(6) {font-size:calc(var(--size-xsm)*2.0);
+}
+li:nth-child(7) {font-size:calc(var(--size-xsm)*2.2);
+}
+li:nth-child(8) {font-size:calc(var(--size-xsm)*3.3);
+}
 
 .custom-underline {
 	text-decoration: underline;
