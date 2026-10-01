@@ -134,6 +134,28 @@ mark {
 	font-size: var(--size-xsm);
 }
 
+#O-Article{
+	display: block;
+	text-decoration: none;
+	background-color: var(--color-brand);
+	color:var(--color-bg);
+	inline-size: max-content;
+	padding-inline: var(--size-xsm);
+	border-radius: calc(var(--size-xsm)/4);
+}
+
+
+#back-to-top{
+	display: block;
+	text-decoration: none;
+	background-color: var(--color-brand);
+	color:var(--color-bg);
+	inline-size: max-content;
+	padding-inline: var(--size-xsm);
+	border-radius: calc(var(--size-xsm)/4);
+
+}
+
 li:nth-child(1) {font-size: calc(var(--size-xsm)*0.8);
 }
 li:nth-child(2) {font-size:calc(var( --size-xsm)*1.2);
